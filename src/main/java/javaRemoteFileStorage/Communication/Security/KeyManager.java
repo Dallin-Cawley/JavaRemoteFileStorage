@@ -1,4 +1,4 @@
-package remoteStorageServer.Communication.Security;
+package javaRemoteFileStorage.Communication.Security;
 
 import java.security.*;
 import java.time.ZoneId;

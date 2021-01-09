@@ -1,4 +1,4 @@
-package remoteStorageServer.GUI;
+package javaRemoteFileStorage.GUI;
 
 import javax.swing.*;
 import java.awt.*;

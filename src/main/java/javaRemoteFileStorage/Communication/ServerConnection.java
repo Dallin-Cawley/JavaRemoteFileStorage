@@ -1,4 +1,4 @@
-package remoteStorageServer.Communication;
+package javaRemoteFileStorage.Communication;
 
 import java.net.Socket;
 
