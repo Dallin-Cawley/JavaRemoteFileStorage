@@ -26,6 +26,14 @@ public class FileLogger {
      */
     public FileLogger(File logFile) {
         this.logFile = logFile;
+        if (!this.logFile.exists()) {
+            try {
+                this.logFile.createNewFile();
+            }
+            catch (IOException exception) {
+                System.out.println("Unable to create log file");
+            }
+        }
     }
 
     /**
